@@ -1,6 +1,6 @@
 module.exports = {
   // 基本路径
-  baseUrl: './',
+  publicPath: './',
   outputDir: process.env.NODE_ENV == 'project' ? 'project' : 'dist',
   // 生产环境是否生成 sourceMap 文件
   productionSourceMap: false
